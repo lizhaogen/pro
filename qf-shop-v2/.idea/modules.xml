@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/qf-v2-service/demo.iml" filepath="$PROJECT_DIR$/qf-v2-service/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qf-v2-service/demo-lzg/demo-lzg.iml" filepath="$PROJECT_DIR$/qf-v2-service/demo-lzg/demo-lzg.iml" />
+    </modules>
+  </component>
+</project>

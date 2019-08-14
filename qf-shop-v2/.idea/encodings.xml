@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/qf-v2-basic/qf-v2-mapper00" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service/qf-v2-email-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service/qf-v2-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service/qf-v2-product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service/qf-v2-product-type-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service/qf-v2-solr-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-service/qf-v2-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-web/qf-v2-index-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-web/qf-v2-product-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-web/qf-v2-solr-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/qf-v2-web/qf-v2-user-web" charset="UTF-8" />
+  </component>
+</project>

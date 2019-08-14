@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qf-v2-solr-web" />
+        <module name="qf-v2-solr-api" />
+        <module name="qf-v2-user-api" />
+        <module name="qf-v2-mapper00" />
+        <module name="qf-v2-email-api" />
+        <module name="qf-v2-user-web" />
+        <module name="qf-v2-solr-service" />
+        <module name="qf-v2-web" />
+        <module name="qf-v2-entity" />
+        <module name="qf-v2-item-service" />
+        <module name="qf-v2-product-service" />
+        <module name="qf-v2-index-web" />
+        <module name="qf-v2-product-api" />
+        <module name="qf-v2-email-service" />
+        <module name="qf-v2-common" />
+        <module name="qf-v2-product-type-service" />
+        <module name="qf-v2-product-web" />
+        <module name="qf-v2-service" />
+        <module name="qf-v2-user-service" />
+        <module name="qf-v2-item-api" />
+        <module name="qf-v2-product-type-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-lzg" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="demo000" target="1.8" />
+      <module name="qf-v2-mapper" target="1.5" />
+      <module name="qf-v2-search-service" target="1.8" />
+      <module name="qf-v2-service3" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com-lzg" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo000" options="-parameters" />
+      <module name="qf-v2-email-service" options="-parameters" />
+      <module name="qf-v2-index-web" options="-parameters" />
+      <module name="qf-v2-item-service" options="-parameters" />
+      <module name="qf-v2-mapper" options="" />
+      <module name="qf-v2-mapper00" options="-parameters" />
+      <module name="qf-v2-product-service" options="-parameters" />
+      <module name="qf-v2-product-type-service" options="-parameters" />
+      <module name="qf-v2-product-web" options="-parameters" />
+      <module name="qf-v2-search-service" options="-parameters" />
+      <module name="qf-v2-service" options="" />
+      <module name="qf-v2-solr-service" options="-parameters" />
+      <module name="qf-v2-solr-web" options="-parameters" />
+      <module name="qf-v2-user-service" options="-parameters" />
+      <module name="qf-v2-user-web" options="-parameters" />
+    </option>
+  </component>
+</project>

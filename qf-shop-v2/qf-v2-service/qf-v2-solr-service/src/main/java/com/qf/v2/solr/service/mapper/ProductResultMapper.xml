@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.v2.solr.service.mapper.ProductResultMapper">
+  <resultMap id="BaseResultMap" type="com.lzg.solr.service.entity.ProductResult">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="product_name" jdbcType="VARCHAR" property="productName" />
+    <result column="product_sale_point" jdbcType="VARCHAR" property="productSalePoint" />
+    <result column="product_info" jdbcType="VARCHAR" property="productInfo" />
+    <result column="product_image" jdbcType="VARCHAR" property="productImage" />
+    <result column="product_price" jdbcType="INTEGER" property="productPrice" />
+
+  </resultMap>
+
+  <select id="selectAll" resultMap="BaseResultMap">
+     SELECT
+      a.id,
+      a.name AS product_name,
+      a.sale_point AS product_sale_point,
+      b.product_info AS product_info,
+      a.pimage AS product_image,
+      a.price AS product_price
+    FROM
+      product AS a
+      LEFT JOIN product_info AS b
+        ON a.`id` = b.`pid`
+  </select>
+</mapper>
